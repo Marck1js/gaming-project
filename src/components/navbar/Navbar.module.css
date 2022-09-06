@@ -1,0 +1,61 @@
+.container {
+    height: 8.1rem;
+    margin-bottom: 3rem;
+}
+
+.header {
+    background: linear-gradient(to right, var(--colorSecond)0%,  var(--fondo)100%);
+    box-shadow: 0px 8px 20px var(--sombra);
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+.nav {
+   display: flex;
+   justify-content: space-around;
+   font-size: 1.6rem;
+}
+
+.juegos {
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+
+
+.sesion {
+ 
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-content: center;
+   gap: 1rem;
+   margin: 1rem;
+   padding: .4rem 2rem;
+}
+
+.sesion button {
+    font-weight: bold;
+    color: var(--colorMain);
+    background-color:transparent;
+    border: none;
+}
+
+.sesion button:hover {
+    cursor: pointer;
+    color: var(--blanco)
+    
+}
+
+.juegos span:hover {
+    cursor: pointer;
+    color: var(--blanco)
+}
+
+.start:hover {
+    cursor: pointer;
+}

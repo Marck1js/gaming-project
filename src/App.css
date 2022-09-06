@@ -1,0 +1,39 @@
+:root {
+  --first : 'MuseoModerno', cursive;
+  --second: 'Roboto Mono', arial;
+  --third: monospace;
+  --colorMain: #569bd3e3;
+  --colorSecond : #af2f3e;
+  --fondo: #7654F3;
+  --sombra: #720EB8;
+  --blanco: #f1f1f1;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: var(--first);
+  box-sizing: border-box;
+  color: var(--colorMain);
+  text-transform: uppercase;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+p {
+  margin: 0;
+}
+
+body{
+  background: linear-gradient(to bottom, var(--fondo)0%,  var(--colorSecond)100%);
+  height: 100vh;
+  background-attachment: fixed;
+}
+
+
+.centro {
+  font-size: 1.6rem;
+  max-width: 75vw;
+  margin: 0 auto;
+ 
+}

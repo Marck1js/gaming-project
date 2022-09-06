@@ -1,0 +1,67 @@
+.container{
+    max-width: 40vw;
+}
+
+.formularios {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    font-size: 2.5rem;
+}
+
+.formularios legend {
+    text-align: center;
+    font-family: var(--third);
+    color: var(--blanco);
+    font-weight: bold;
+    padding: 0 1rem;
+    text-transform: capitalize;
+}
+
+.formularios fieldset {
+    border-radius: 2rem;
+    border: 1px solid rgb(65, 53, 53)
+}
+
+.btn{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-family: var(--second);
+    padding: 1rem .5rem;
+    border-radius: 2rem;
+    border: none;
+    color: var(--colorMain);
+    background: linear-gradient(to right, var(--colorSecond)0%,  var(--fondo)100%);
+}
+
+.btn:hover {
+    cursor: pointer;
+    background: linear-gradient(to left, var(--colorSecond)0%,  var(--fondo)100%);
+    color: var(--blanco);
+}
+
+.formularios input {
+    text-transform: lowercase;
+    color: var(--colorMain);
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    height: 3.4rem;
+    text-align: center;
+}
+
+.formularios input:focus {
+    color: var(--colorMain);
+    outline: none;
+}
+
+.formularios div:first-child{
+    margin-top: 1rem;
+}
+.formularios div {
+    margin-bottom: 1rem;
+}
+.formularios div:last-child{
+    margin-bottom: 0;
+}
